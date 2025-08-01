@@ -1,8 +1,8 @@
 site_name: Test Documentation
-site_author: OptoComb,Inc.
-repo_url: https://optocomb.visualstudio.com/StageSDK
-repo_name: OptoCombToolkit.Stages
-copyright: "&copy; 2024 OptoComb,Inc."
+site_author: Yihoo.Kan
+repo_url: https://github.com/SerenniaHan/mkdoc-sample
+repo_name: mkdoc-sample
+copyright: "&copy; 2024 Yihoo.Kan"
 site_url: https://serenniahan.github.io/mkdoc-sample/
 
 theme:
