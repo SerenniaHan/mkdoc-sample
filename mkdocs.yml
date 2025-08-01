@@ -8,34 +8,52 @@ site_url: https://serenniahan.github.io/mkdoc-sample/
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: pink
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
   features:
+    - navigation.instant.prefetch
+    - navigation.tracking
     - navigation.indexes
     - navigation.expand
+    - navigation.path
     - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
 
 extra:
   version:
     provider: mike
+    default: latest
   alternate:
     - name: English
-      link: /
+      link: /mkdoc-sample/
       lang: en
     - name: 日本語
-      link: /ja/
+      link: /mkdoc-sample/ja/
       lang: ja
     - name: 中文(简体)
-      link: /zh/
+      link: /mkdoc-sample/zh/
       lang: zh
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
 nav:
   - Welcome:
@@ -43,7 +61,15 @@ nav:
 
 plugins:
   - search:
+      lang:
+        - en
+        - ja
+        - zh
   - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
       languages:
         - locale: en
           name: English
@@ -58,7 +84,7 @@ plugins:
           name: 中文（简体）
           build: true
           nav_translations:
-            Welcomb: 欢迎
+            Welcome: 欢迎
   - mike:
       version_selector: true
       css_dir: css
