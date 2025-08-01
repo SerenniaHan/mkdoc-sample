@@ -1,0 +1,64 @@
+site_name: Test Documentation
+site_author: OptoComb,Inc.
+repo_url: https://optocomb.visualstudio.com/StageSDK
+repo_name: OptoCombToolkit.Stages
+copyright: "&copy; 2024 OptoComb,Inc."
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.indexes
+    - navigation.expand
+    - navigation.top
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - Welcome:
+      - index.md
+
+plugins:
+  - search:
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: ja
+          name: 日本語
+          build: true
+          nav_translations:
+            Welcome: ようこそ
+        - locale: zh
+          name: 中文（简体）
+          build: true
+          nav_translations:
+            Welcomb: 欢迎
+  - mike:
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+      canonical_version: null
+
+markdown_extensions:
+  - admonition
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
+  - javascripts/config.js
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
