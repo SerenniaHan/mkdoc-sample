@@ -3,6 +3,7 @@ site_author: OptoComb,Inc.
 repo_url: https://optocomb.visualstudio.com/StageSDK
 repo_name: OptoCombToolkit.Stages
 copyright: "&copy; 2024 OptoComb,Inc."
+site_url: https://serenniahan.github.io/mkdoc-sample/
 
 theme:
   name: material
