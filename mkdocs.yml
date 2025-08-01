@@ -48,6 +48,8 @@ extra:
 nav:
   - Welcome:
       - index.md
+  - Page:
+      - page.md
 
 plugins:
   - search:
@@ -70,11 +72,13 @@ plugins:
           build: true
           nav_translations:
             Welcome: ようこそ
+            Page: ページ
         - locale: zh
           name: 中文（简体）
           build: true
           nav_translations:
             Welcome: 欢迎
+            Page: 页面
   - mike:
       version_selector: true
       css_dir: css
