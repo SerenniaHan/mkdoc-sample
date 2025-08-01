@@ -26,6 +26,16 @@ theme:
 extra:
   version:
     provider: mike
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja
+    - name: 中文(简体)
+      link: /zh/
+      lang: zh
 
 nav:
   - Welcome:
