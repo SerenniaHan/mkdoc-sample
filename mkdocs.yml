@@ -29,6 +29,8 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
@@ -49,7 +51,8 @@ nav:
   - Welcome:
       - index.md
   - Page:
-      - page.md
+      - page-1.md
+      - page-2.md
 
 plugins:
   - search:
@@ -87,6 +90,11 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
