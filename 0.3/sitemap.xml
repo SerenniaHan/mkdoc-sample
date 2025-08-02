@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/index.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3ja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3zh/index.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/page-1.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3/page-1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3ja/page-1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3zh/page-1.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/page-2.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3/page-2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3ja/page-2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3zh/page-2.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/ja/index.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3/ja/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3index.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3zh/index.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/ja/page-1.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3/ja/page-1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3page-1.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3zh/page-1.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/ja/page-2.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3/ja/page-2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3page-2.html"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3zh/page-2.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/zh/index.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3/zh/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3index.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3ja/index.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/zh/page-1.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3/zh/page-1.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3page-1.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3ja/page-1.html"/>
+    </url>
+    <url>
+        <loc>https://serenniahan.github.io/mkdoc-sample/0.3/zh/page-2.html</loc>
+        <lastmod>2025-08-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://serenniahan.github.io/mkdoc-sample/0.3/zh/page-2.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://serenniahan.github.io/mkdoc-sample/0.3page-2.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://serenniahan.github.io/mkdoc-sample/0.3ja/page-2.html"/>
+    </url>
+</urlset>
