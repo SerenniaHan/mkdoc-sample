@@ -25,6 +25,17 @@ A well-structured document makes it easier to identify key points at a glance. B
 
 These guidelines ensure the reader stays engaged and can absorb information without feeling overwhelmed. When paragraphs are too long, important details can get lost, so aim for 3–5 sentences per paragraph, each contributing to the section’s theme.
 
-# Conclusion
+You can also see [PythonCode] here.
+
+[PythonCode]:page-2.md#python-code
+
+## Annotation
+
+Click (1) the plus-circle button to open the annotation.
+{.annotate}
+
+1. This is an annotated text.
+
+## Conclusion
 
 By adopting a systematic approach—using top-level sections for broad topics and subsections for detailed discussions—you can create documentation that is both comprehensive and approachable. Remember to proofread, check for clarity, and update regularly as your project evolves. Consistent structure not only benefits your current audience but also sets a solid foundation for future contributors.

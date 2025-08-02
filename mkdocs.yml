@@ -21,9 +21,13 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  icon:
+    annotation: material/plus-circle
 
   features:
-    - navigation.instant.prefetch
+    # can not be use this feature when use lang switcher
+    # - navigation.instant
+    # - navigation.instant.prefetch
     - navigation.tracking
     - navigation.indexes
     - navigation.expand
@@ -34,6 +38,8 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.code.select # should be work but not
+    - content.code.copy
 
 extra:
   version:
@@ -88,16 +94,34 @@ plugins:
       javascript_dir: js
       canonical_version: null
 
+  # - minify:
+  #     minify_html: true
+  #     minify_js: false
+  #     minify_css: false
+  #     cache_safe: false
+
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js
-  - javascripts/config.js
+  - javascripts/shortcuts.js
 extra_css:
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
+  - stylesheets/extra.css
